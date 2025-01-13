@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Operations with MockAPI</title>
+    <link rel="stylesheet" href="styles (1).css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h3>Add New Product</h3>
+        <form id="addForm">
+            <label for="name">Title:</label>
+            <input type="text" id="name" required>
+
+            <label for="salary">Price:</label>
+            <input type="number" id="salary" required>
+
+            <label for="text">Description</label>
+            <input type="text" id="email" required>
+
+        <label for="image">Upload Image:</label>
+        <input type="file" id="image" name="image" accept="image/*">
+
+            <button type="submit">Add Product</button>
+        </form>
+
+        <h3>Product List</h3>
+        <table id="ProductTable">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Price</th>
+                    <th>Description</th>
+                    <th>image</th>
+
+
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="app (1).js"></script>
+</body>
+
+</html>
